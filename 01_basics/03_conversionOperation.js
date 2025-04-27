@@ -62,3 +62,8 @@ console.log(gameCounter);
 // gameCounter++;
 ++gameCounter;
 console.log(gameCounter);
+
+let a = 3;
+// let b = a++;
+let b = ++a;
+console.log('a:' + a, 'b:' + b)
