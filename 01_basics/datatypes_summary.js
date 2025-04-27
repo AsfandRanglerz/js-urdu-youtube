@@ -32,3 +32,21 @@ myFunction()
 
 console.log(typeof (bigNumber));
 console.log(typeof (myFunction));
+
+// Memory Types
+// Stack (Primitive), Heap (Non-Primitive)
+// Stack returns copy, Heap returns reference
+
+let userName = 'Max'
+let userNameAlpha = userName
+userNameAlpha = 'Tyson'
+console.log(userName)
+console.log(userNameAlpha)
+
+let userBeta = {
+    name: 'Rocky'
+}
+let userOmega = userBeta
+userOmega.name = 'Johnson'
+
+console.log(userBeta.name)
